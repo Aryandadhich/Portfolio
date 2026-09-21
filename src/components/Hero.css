@@ -1,0 +1,95 @@
+.hero {
+  padding: 64px 0 48px;
+}
+
+.hero-profile {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 24px;
+}
+
+.hero-avatar {
+  flex-shrink: 0;
+}
+
+.hero-avatar svg {
+  display: block;
+  border-radius: 50%;
+}
+
+.hero-info {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.hero-name {
+  font-size: 26px;
+  font-weight: 700;
+  color: var(--text);
+  letter-spacing: -0.03em;
+}
+
+.hero-meta {
+  font-size: 14px;
+  color: var(--text-muted);
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 4px;
+}
+
+.hero-email-wrap {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.copy-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: none;
+  border: none;
+  color: var(--text-dim);
+  cursor: pointer;
+  padding: 1px 3px;
+  border-radius: 3px;
+  transition: color 0.2s;
+}
+
+.copy-btn:hover {
+  color: var(--text-muted);
+}
+
+.hero-bio {
+  font-size: 15px;
+  color: var(--text-muted);
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
+
+.hero-socials {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.social-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 34px;
+  height: 34px;
+  color: var(--text-muted);
+  border: 1px solid var(--border);
+  border-radius: 7px;
+  background: var(--bg-card);
+  transition: color 0.2s, border-color 0.2s;
+}
+
+.social-icon:hover {
+  color: var(--text);
+  border-color: #444;
+}

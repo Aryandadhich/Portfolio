@@ -1,0 +1,103 @@
+.skills-section {
+  padding: 48px 0;
+}
+
+.section-heading--spaced {
+  margin-top: 44px;
+}
+
+/* Skill groups */
+.skill-groups {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.skill-group {
+  display: flex;
+  align-items: baseline;
+  gap: 16px;
+}
+
+.skill-group-label {
+  font-size: 13px;
+  color: var(--text-dim);
+  min-width: 140px;
+  flex-shrink: 0;
+  padding-top: 2px;
+}
+
+.skill-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+/* Cert list */
+.cert-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.cert-item {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 14px 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.cert-list .cert-item:first-child {
+  border-top: 1px solid var(--border);
+}
+
+/* Education single item also gets top border */
+.skills-section > .container > .cert-item {
+  border-top: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+}
+
+.cert-left {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  min-width: 0;
+}
+
+.cert-name {
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--text);
+  line-height: 1.4;
+}
+
+.cert-name--highlight {
+  font-weight: 600;
+}
+
+.cert-note {
+  font-size: 12px;
+  color: var(--text-dim);
+  line-height: 1.4;
+}
+
+.cert-issuer {
+  font-size: 13px;
+  color: var(--text-dim);
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+@media (max-width: 600px) {
+  .skill-group {
+    flex-direction: column;
+    gap: 8px;
+  }
+  .skill-group-label { min-width: auto; }
+  .cert-item {
+    flex-direction: column;
+    gap: 4px;
+  }
+}
