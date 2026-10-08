@@ -3,7 +3,7 @@ import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import Experience from './components/Experience'
 import Projects from './components/Projects'
-import Skills from './components/Skills'
+import Skills, { CertificationsEducation } from './components/Skills'
 
 function PortfolioApp() {
   return (
@@ -14,6 +14,7 @@ function PortfolioApp() {
         <Experience />
         <Skills />
         <Projects />
+        <CertificationsEducation />
       </main>
     </div>
   )

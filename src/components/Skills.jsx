@@ -54,8 +54,16 @@ export default function Skills() {
             </div>
           ))}
         </div>
+      </div>
+    </section>
+  )
+}
 
-        <h2 className="section-heading section-heading--spaced">Certifications</h2>
+export function CertificationsEducation() {
+  return (
+    <section className="skills-section" id="certifications">
+      <div className="container">
+        <h2 className="section-heading">Certifications</h2>
 
         <div className="cert-list">
           {certifications.map((cert, i) => (
@@ -69,7 +77,6 @@ export default function Skills() {
           ))}
         </div>
 
-        {/* Education */}
         <h2 className="section-heading section-heading--spaced">Education</h2>
         <div className="cert-item">
           <div className="cert-left">
