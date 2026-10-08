@@ -12,8 +12,8 @@ function PortfolioApp() {
       <main>
         <Hero />
         <Experience />
-        <Projects />
         <Skills />
+        <Projects />
       </main>
     </div>
   )
