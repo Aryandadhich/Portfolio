@@ -2,24 +2,24 @@ import './Skills.css'
 
 const skillGroups = [
   {
-    label: 'Cloud & Integration',
-    skills: ['Azure Logic Apps', 'Azure API Management (APIM)', 'Azure Service Bus', 'Azure Data Factory (ADF)', 'Azure Storage Accounts', 'Azure Application Gateway'],
+    label: 'Cloud & Data Integration',
+    skills: ['Azure Logic Apps', 'Azure API Management (APIM)', 'Azure Service Bus', 'Azure Data Factory (ADF)', 'ADLS Gen2', 'Azure SQL Database', 'Azure Storage Accounts', 'Azure Functions'],
   },
   {
     label: 'AI & Automation',
-    skills: ['Azure OpenAI', 'Azure AI Foundry', 'Prompt Engineering', 'Agentic AI', 'RAG', 'IBM ICA 2.0', 'Bob AI Agent Platform'],
+    skills: ['Azure OpenAI', 'Azure AI Foundry', 'Prompt Engineering', 'Agentic AI', 'Retrieval-Augmented Generation (RAG)', 'IBM ICA & ICA 2.0', 'Bob AI Agent Platform'],
   },
   {
-    label: 'Backend',
-    skills: ['Node.js', 'Express.js', 'TypeScript', 'REST APIs', 'Microservices', 'JWT Authentication', 'RBAC'],
+    label: 'Backend Development',
+    skills: ['Node.js', 'Express.js', 'TypeScript', 'REST APIs', 'Microservices', 'JWT Authentication', 'Role-Based Access Control (RBAC)', 'Python', 'FastAPI'],
   },
   {
-    label: 'Frontend',
+    label: 'Frontend Development',
     skills: ['React.js', 'Redux', 'JavaScript'],
   },
   {
     label: 'Databases',
-    skills: ['MongoDB', 'MySQL', 'SQL'],
+    skills: ['Azure SQL Database', 'SQL', 'MongoDB', 'MySQL'],
   },
   {
     label: 'DevOps & Monitoring',

@@ -12,13 +12,10 @@ export default function About() {
         <div className="about-grid">
           <div className="about-text">
             <p>
-              I'm <strong>Aryan Dadheech</strong>, an <strong>AZ-204 Certified Azure Integration & Full Stack Developer</strong> with 3+ years of experience building cloud-based applications and enterprise integration solutions on Microsoft Azure.
+              I'm <strong>Aryan Dadheech</strong>, an <strong>AZ-204 &amp; DP-700 Certified Azure Integration &amp; Data Engineer</strong> with 3.5+ years of experience designing and supporting cloud-based integration and data solutions on Microsoft Azure.
             </p>
             <p>
-              Experienced in <strong>Azure Logic Apps</strong>, <strong>API Management (APIM)</strong>, <strong>Service Bus</strong>, <strong>Storage Accounts</strong>, and <strong>Azure Data Factory (ADF)</strong> — developing secure, scalable integrations for enterprise workloads.
-            </p>
-            <p>
-              On the backend: <strong>Node.js, Express.js, TypeScript</strong>, REST APIs, and microservices with JWT auth and RBAC. On the frontend: <strong>React.js</strong> and Redux. Strong focus on event-driven architectures, workflow automation, and production reliability.
+              Hands-on experience with <strong>Azure Logic Apps</strong>, <strong>API Management (APIM)</strong>, <strong>Azure Service Bus</strong>, <strong>Azure Data Factory (ADF)</strong>, <strong>Azure Storage Accounts</strong>, and <strong>ADLS Gen2</strong> — delivering secure, scalable, and reliable enterprise integrations and data workflows.
             </p>
             <div className="about-contact-row">
               <a href="mailto:aryandadheech069@gmail.com" className="about-contact-item">
