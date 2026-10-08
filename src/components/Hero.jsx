@@ -52,7 +52,7 @@ export default function Hero() {
 
         {/* Bio */}
         <p className="hero-bio">
-          AZ-204 Certified Azure Integration &amp; Full Stack Developer with 3+ years of experience building cloud-based applications and enterprise integrations on Microsoft Azure.
+          AZ-204 &amp; DP-700 Certified Azure Integration &amp; Data Engineer with 3.5+ years of experience designing and supporting cloud-based integration and data solutions on Microsoft Azure. Hands-on experience with Azure Logic Apps, API Management (APIM), Azure Service Bus, Azure Data Factory (ADF), Azure Storage Accounts, and ADLS Gen2, delivering secure, scalable, and reliable enterprise integrations and data workflows.
         </p>
 
         {/* Social icons */}
